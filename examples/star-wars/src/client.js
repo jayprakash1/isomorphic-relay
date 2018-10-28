@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Relay from 'react-relay';
+import Relay from 'react-relay/classic';
 import IsomorphicRelay from 'isomorphic-relay';
 import rootContainerProps from './rootContainerProps';
 

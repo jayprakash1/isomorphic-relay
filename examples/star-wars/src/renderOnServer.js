@@ -2,7 +2,7 @@ import IsomorphicRelay from 'isomorphic-relay';
 import path from 'path';
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-import Relay from 'react-relay';
+import Relay from 'react-relay/classic';
 import rootContainerProps from './rootContainerProps';
 
 const GRAPHQL_URL = `http://localhost:8080/graphql`;
