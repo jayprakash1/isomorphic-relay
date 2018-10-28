@@ -132,7 +132,7 @@ IsomorphicRenderer.propTypes = {
     stale: PropTypes.bool.isRequired,
   }),
   onReadyStateChange: PropTypes.func,
-  queryConfig: PropTypes.isRequired, //QueryConfig
+  queryConfig: PropTypes.any.isRequired, //QueryConfig
   environment: PropTypes.any, // Environment
   render: PropTypes.func,
   shouldFetch: PropTypes.bool,
